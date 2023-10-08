@@ -113,6 +113,48 @@ int main(void) {
     */
 
 	//added commit
+	/*
+	int a, b, c;
+
+	printf("Enter two numbers: ");
+	scanf("%d %d", b, c);
+	a = b * c;
+    printf("This program performs a sample payroll calculation.\n");
+    */
+    /*
+    int x = 2;
+
+	printf("x=");
+	*/
+
+
+    int num1, num2;
+
+    printf("Enter the first number: ");
+    scanf("%d", &num1);
+
+    printf("Enter the second number: ");
+    scanf("%d", &num2);
+
+    printf("Sum: %d\n", num1 + num2);
+
+    printf("Product: %d\n", num1 * num2);
+
+    printf("Difference: %d\n", num1 - num2);
+
+    printf("Quotient: %d\n", num1 / num2);
+
+    printf("Remainder: %d\n", num1 % num2);
+	
+	// soldaki mekana ne koyarsan koy yazdırdığı şey o geliyo aralara virgül koyarsan onları da koyuyo %d yer tutucu sırasıyla alıyo
+	
+	printf("%d,%d,%d,%d\n", 1, 2, 3, 4);
+
+	printf("1 ");
+    printf("2 ");
+    printf("3 ");
+    printf("4\n");
+
 
 
 }
